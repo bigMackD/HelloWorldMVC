@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model HelloWorld.Models.Adress
+
+<div class="jumbotron">
+    <h3 class="display-4"> Current time is:@ViewBag.Message Hello world from: </h3>
+    <div>@Model.City</div>
+    <div>@Model.StreetName</div>
+    <div>@Model.Building</div>
+   
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+</div>
+
